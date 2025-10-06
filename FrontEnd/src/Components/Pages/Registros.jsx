@@ -19,7 +19,7 @@ function Registros() {
                         body: JSON.stringify(Datos)
                     })
                 const data = await URL.json()
-                alert(Mensaje.data || 'Datos Registrados Correctamente')
+                alert(data.Mensaje || 'Datos Registrados Correctamente')
                 console.log("Registrados Correctamente")
 
             }
