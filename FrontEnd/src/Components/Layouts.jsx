@@ -5,6 +5,7 @@ import Encabezado from './Global/Encabezado'
 import './Layouts.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from './Global/Main'
+import Registros from './Pages/Registros';
 
 function Layouts() {
   return (
@@ -14,6 +15,7 @@ function Layouts() {
         <Encabezado />
         <Routes>
           <Route path="/VerAlumnos" element={<Main />} />
+          <Route path="/RegistrarAlumnos" element={<Registros />} />
         </Routes>
       </Router>
 

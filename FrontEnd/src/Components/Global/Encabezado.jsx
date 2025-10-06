@@ -8,6 +8,7 @@ function Encabezado() {
           {/* URL HIPERVINCULOS */}
           <Link to={'/'}>Home</Link>
           <Link to={'/VerAlumnos'}>Ver Alumnos</Link>
+          <Link to={'/RegistrarAlumnos'}>Registrar Alumnos</Link>
         </nav>
       </header>
     </>
